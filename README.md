@@ -1,5 +1,6 @@
 # CognitoUserManager - an ASP.NET Core MVC implementation for Cognito User Flows
 
+[![.NET](https://github.com/referbruv/CognitoUserManager/actions/workflows/dotnet.yml/badge.svg)](https://github.com/referbruv/CognitoUserManager/actions/workflows/dotnet.yml)
 ![GitHub stars](https://img.shields.io/github/stars/referbruv/CognitoUserManager)
 [![Twitter Follow](https://img.shields.io/twitter/follow/referbruv?style=social&label=follow)](https://twitter.com/referbruv)
 
