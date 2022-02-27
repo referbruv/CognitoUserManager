@@ -54,7 +54,7 @@ To know more about this and to understand how this works in detail, I'd recommen
 
 # Issues or Ideas?
 
-If you face any issues or would like to drop a suggestion, ![raise an issue](https://github.com/referbruv/ContainerNinja.CleanArchitecture/issues/new/choose)
+If you face any issues or would like to drop a suggestion, ![raise an issue](https://github.com/referbruv/CognitoUserManager/issues/new/choose)
 
 # License
 
