@@ -29,11 +29,11 @@ The solution requires the following things first to run:
 
 *You need to update these values inside `appsettings.json` respectively
 
-On the environment side, the solution requires a .NET Core 3.1 installation on the machine.
+On the environment side, the solution requires a .NET Core (.NET 5) installation on the machine.
 
 # How do I run this?
 
-The solution is built using ASP.NET Core 3.1 with a pipeline to upgrade to .NET 6 (soon), so for now you'd need a .NET Core 3.1 installed on your machine.
+The solution is built using ASP.NET Core (.NET 5) with a pipeline to upgrade to .NET 6 (soon), so for now you'd need a .NET Core (.NET 5) installed on your machine.
 
 1. Clone the solution into your local repository
 2. Open the solution in Visual Studio and set CognitoUserManger.WebApp as the startup project
