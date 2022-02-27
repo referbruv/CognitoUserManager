@@ -1,0 +1,28 @@
+﻿@using CognitoUserManager.Controllers
+@using CognitoUserManager.Contracts.DTO
+@inject CognitoUserManager.Contracts.Services.IPersistService session
+
+@{
+    ViewData["Title"] = "Home Page";
+    var id = User.Claims.Where(x => x.Type == System.Security.Claims.ClaimTypes.NameIdentifier).First();
+    var tokens = session.Get<TokenModel>($"{id.Value}_{UserController.Session_TokenKey}");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome!</h1>
+</div>
+
+@if (tokens != null)
+{
+    <div class="row">
+        @foreach (var prop in tokens.GetType().GetProperties())
+        {
+            <div class="col-md-12">
+                <div class="container-fluid">
+                    <span class="lead">@prop.Name</span>
+                    <div class="text-wrap text-break">@prop.GetValue(tokens, null)</div>
+                </div>
+            </div>
+        }
+    </div>
+}
