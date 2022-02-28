@@ -68,8 +68,6 @@ The solution is completely open source and is licensed with MIT License.
 
 # Show your Support 
 
-I really hope this solution helps developers get started on building awesome things with ASP.NET Core (.NET 6) Web API and get into the world of containerized development real quick. 
-
 Found this solution helpful and useful? You can do these to help this reach greater audience.
 
 1. Leave a star on this repository :star:
